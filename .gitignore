@@ -1,0 +1,8 @@
+# Excluir archivos binarios y cachés generadas automáticamente por el motor
+.godot/
+
+# Excluir traducciones importadas automáticamente
+*.translation
+
+# Excluir configuraciones locales de exportación que contienen rutas absolutas del sistema
+export_presets.cfg
