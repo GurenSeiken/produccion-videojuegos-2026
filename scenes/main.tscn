@@ -4,3 +4,15 @@
 
 [node name="Node3D" type="Node3D" unique_id=414783289]
 script = ExtResource("1_ig7tw")
+
+[node name="Label" type="Label" parent="." unique_id=88855033]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Bienvenido al Sistema Interactivo - Lab 1"
+
+[node name="Button" type="Button" parent="." unique_id=360211179]
+offset_left = 16.0
+offset_top = 39.0
+offset_right = 73.0
+offset_bottom = 70.0
+text = "Iniciar"
