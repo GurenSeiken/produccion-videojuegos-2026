@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c7pyeujenrmmd"]
 
 [ext_resource type="Script" uid="uid://bhd3pgcqmojrj" path="res://scripts/main.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://p11mxibj05wb" path="res://scripts/changeScene.gd" id="2_0wfyh"]
 
 [node name="Node3D" type="Node3D" unique_id=414783289]
 script = ExtResource("1_ig7tw")
@@ -16,3 +17,6 @@ offset_top = 39.0
 offset_right = 73.0
 offset_bottom = 70.0
 text = "Iniciar"
+script = ExtResource("2_0wfyh")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed_button_1"]

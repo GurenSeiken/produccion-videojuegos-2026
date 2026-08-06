@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Guia-Laboratorio-1"
-run/main_scene="uid://c7pyeujenrmmd"
+run/main_scene="uid://dg45k2tmrclnv"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://assets/ui/icon.svg"
+
+[autoload]
+
+EventBus="*uid://bc1aekbdm44qi"
 
 [display]
 

@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dg45k2tmrclnv"]
+
+[ext_resource type="Script" uid="uid://4bwy7li5dcx2" path="res://core/mainApp.gd" id="1_2vs7g"]
+
+[node name="MainApp" type="Node3D" unique_id=534041292]
+script = ExtResource("1_2vs7g")
+
+[node name="SceneContainer" type="Control" parent="." unique_id=752761757]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

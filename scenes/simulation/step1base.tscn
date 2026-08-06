@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://td4g655nogn3"]
+
+[ext_resource type="Script" uid="uid://c2nk8lixcktpf" path="res://scenes/simulation/step1base.gd" id="1_rqu3s"]
+
+[node name="Step1Base" type="Control" unique_id=1438074307]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_rqu3s")
+
+[node name="Label" type="Label" parent="." unique_id=1684857329]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Paso 1: Elige tu base - Hamburguesa/Pizza"
+
+[node name="BtnNext" type="Button" parent="." unique_id=2071368044]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 29.0
+offset_right = 63.0
+offset_bottom = 48.0
+text = "Next"

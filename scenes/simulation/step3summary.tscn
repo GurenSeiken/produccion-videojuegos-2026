@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cltnldmsnaptw"]
+
+[ext_resource type="Script" uid="uid://oybqhdb1i87h" path="res://scenes/simulation/step3summary.gd" id="1_iap7y"]
+
+[node name="Step3Summary" type="Control" unique_id=715489941]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_iap7y")
+
+[node name="Label" type="Label" parent="." unique_id=1425929983]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Paso 3: Resumen del Pedido"
+
+[node name="BtnMenu" type="Button" parent="." unique_id=589075498]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 27.0
+offset_right = 56.0
+offset_bottom = 58.0
+text = "Menu"

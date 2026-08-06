@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c8cpjyddenmgd"]
+
+[ext_resource type="Script" uid="uid://bhd3pgcqmojrj" path="res://scripts/main.gd" id="1_icqk6"]
+[ext_resource type="Script" uid="uid://p11mxibj05wb" path="res://scripts/changeScene.gd" id="2_ho0ok"]
+
+[node name="Node3D" type="Node3D" unique_id=414783289]
+script = ExtResource("1_icqk6")
+
+[node name="Label" type="Label" parent="." unique_id=88855033]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Este es el mainLevel1 :D"
+
+[node name="Button" type="Button" parent="." unique_id=360211179]
+offset_left = 16.0
+offset_top = 39.0
+offset_right = 73.0
+offset_bottom = 70.0
+text = "Volver"
+script = ExtResource("2_ho0ok")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed_button2"]

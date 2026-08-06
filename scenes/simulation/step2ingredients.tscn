@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dvu3c5cioxikc"]
+
+[ext_resource type="Script" uid="uid://kb004bgneyhs" path="res://scenes/simulation/step2ingredients.gd" id="1_0ujmk"]
+
+[node name="Step2Ingredientes" type="Control" unique_id=491719631]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_0ujmk")
+
+[node name="Label" type="Label" parent="." unique_id=650453274]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Paso 2: Agrega Ingredientes"
+
+[node name="BtnBack" type="Button" parent="." unique_id=1521000020]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 39.0
+offset_right = 76.0
+offset_bottom = 62.0
+text = "Back"
+
+[node name="BtnNext" type="Button" parent="." unique_id=1446749520]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 39.0
+offset_right = 211.0
+offset_bottom = 60.0
+text = "Next"
