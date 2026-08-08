@@ -28,3 +28,13 @@ offset_top = 39.0
 offset_right = 211.0
 offset_bottom = 60.0
 text = "Next"
+
+[node name="BtnAddIngredient" type="Button" parent="." unique_id=1535445312]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 79.0
+offset_right = 167.0
+offset_bottom = 110.0
+text = "Add Ingredient"
+
+[connection signal="pressed" from="BtnAddIngredient" to="." method="_on_btn_add_ingredient_pressed"]
